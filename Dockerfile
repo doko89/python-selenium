@@ -10,5 +10,6 @@ ADD services.ini /etc/supervisor.d/services.ini
 ADD default.conf /etc/nginx/http.d/default.conf
 ADD fake_useragent_0.1.11.json /tmp/fake_useragent_0.1.11.json
 ADD drivers.json /root/.wdm/drivers.json
+ADD run.py .
 
 CMD ["/usr/bin/supervisord"]
