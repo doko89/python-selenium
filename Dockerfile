@@ -8,5 +8,4 @@ RUN apk update && apk add --no-cache bash chromium chromium-chromedriver py3-pip
     /root/.wdm/drivers/chromedriver/linux64/102.0.5005/chromedriver
 ADD fake_useragent_0.1.11.json /tmp/fake_useragent_0.1.11.json
 ADD drivers.json /root/.wdm/drivers.json
-ADD run.py .
 
