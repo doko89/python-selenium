@@ -9,3 +9,4 @@ RUN apk update && apk add --no-cache bash chromium chromium-chromedriver py3-pip
 ADD fake_useragent_0.1.11.json /tmp/fake_useragent_0.1.11.json
 ADD drivers.json /root/.wdm/drivers.json
 
+CMD ["/usr/bin/supervisord"]
